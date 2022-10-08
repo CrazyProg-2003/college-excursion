@@ -1,0 +1,71 @@
+/* 1 экскурсия */
+.floor2 {
+    top: 2vh;
+    left: -10vh;
+}
+
+.dining {
+    left: 4vh;
+}
+
+.info {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 900;
+    width: 20vh;
+    position: absolute;
+    color: #000;
+}
+
+.info1 {
+    position: absolute;
+    top: 2.5vh;
+    left: -1vh;
+}
+
+.info3 {
+    position: absolute;
+    left: -2vh;
+}
+
+.info1-2 {
+    top: -32vh;
+    left: 9vh;
+}
+
+.floor2-1 {
+    top: -34vh;
+}
+
+.gym2 {
+    top: 20vh;
+    left: 5vh;
+}
+
+.info2-2 {
+    top: 27vh;
+    left: 5vh;
+}
+
+.dining-2 {
+    top: -18vh;
+    left: 6vh;
+}
+
+.info3-1 {
+    left: 6vh;
+    top: -10vh;
+}
+
+.floor-exit {
+    top: 20vh
+}
+
+.info-exit {
+    top: 27.5vh;
+    left: -1.5vh;
+}
+
+/* логика ховеров */
+.popup > .small-descriprion { display:none; }
+
+.popup:hover > .small-descriprion { display:block;}

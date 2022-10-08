@@ -1,0 +1,174 @@
+body {
+    overflow-x: hidden;
+}
+
+/* header */
+.logo {
+    width: 10vh;
+    height: 10vh;
+    position: relative;
+    top: 1.5vh;
+}
+
+.col-1 {
+    /* background-color: red;
+    border: .5vh solid blue; */
+}
+
+.nav-txt {
+    position: relative;
+    margin-left: 5vh;
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+    top: 4vh;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.nav-txt:hover {
+    color: white;
+    cursor: pointer;
+}
+
+header {
+    background-color: #131313;
+    height: 13vh;
+    width: 100vw;
+}
+
+/* offer */ 
+
+
+.offer {
+    background: rgb(35,38,240);
+    background: linear-gradient(180deg, rgba(35,38,240,0.7035189075630253) 12%, rgba(138,32,254,0.7399334733893557) 86%);
+    z-index: 1;
+    height: 90vh;
+    width: 100vw;
+}
+
+.pano {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    left: -2vh;
+    z-index: -1;
+}
+
+.right-side:hover {
+    background-color: #131313ce;
+    z-index: 1;
+    transition: linear .2s;
+}
+
+.side {
+    height: 90vh;
+    z-index: 1;
+    position: relative;
+    top: -90vh;
+}
+
+.apou {
+    position: relative;
+    top: 25vh;
+    font-size: 15vh;
+    font-family: 'Inter', sans-serif !important;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    -webkit-text-stroke: 0.02em #8b20fe38;
+    line-height: 15vh;
+}
+
+/* информация */
+.card-txt {
+    font-family: 'Inter', sans-serif !important;
+    color: #131313;
+    text-align: center;
+    position: relative;
+    top: 20vh;
+}
+
+.information {
+    position: relative;
+    top: -80vh;
+}
+
+/* footer */
+footer {
+    position: relative;
+    background-color: #131313;
+    top: 100vh;
+    height: 25vh;
+    width: 100vw;
+}
+
+.footer {
+    position: relative;
+    top: 3vh;
+}
+
+.txt {
+    color: white;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.normal {
+    position: relative;
+    width: 60vh;
+}
+
+.margin {
+    margin-top: 3vh;
+}
+
+.footer-img {
+    width: 10vh; 
+    margin-left: 5vh;
+}
+
+.footer-img1 {
+    height: 7vh;
+    width: 7vh;
+
+}
+
+#excursion2 {
+    position: relative;
+    top: 105vh;
+}
+
+.image-inf:hover {
+    transform: scale(1.075);
+    transition: .3s linear;
+}
+
+.nav-txt {
+    text-decoration:none; /*Убираем стандартное подчёркивание ссылки если оно ещё не убрано*/
+    display: inline-block; /*делаем чтобы наша ссылка из строчного элемента превратилась в строчно-блочный 
+    line-height: 1; /*Задаём высоту строки (можно в пикселях)*/
+    color:white;/*Задаём цвет ссылки*/
+}
+.nav-txt:after {
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 3px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: white; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+}
+.nav-txt:hover:after,
+.nav-txt:focus:after {
+    width: 100%;
+}
+.nav-txt:hover{
+    color:white;
+} 
+
+body {
+    overflow-x: hidden;
+}

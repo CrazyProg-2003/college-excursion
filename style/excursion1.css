@@ -1,0 +1,121 @@
+/* 2 экскурсия */
+.excursion2 {
+    position: relative;
+    top: 10vh;
+}
+
+.excursion2-img {
+    position: relative;
+    
+}
+
+.button {
+    position: relative;
+    width: 7vh;
+    height: 7vh;
+}
+
+.button:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.col-excursion {
+    top: -45vh;
+    position: relative;
+    /* background-color: red;
+    border: .5vh solid blue; */
+}
+
+.description {
+    position: absolute;
+    width: 75vh;
+    height: 54vh;
+    padding: 1.5vh;
+    background-color: white;
+    border: 2px solid transparent;
+    border-image: linear-gradient(180deg, rgba(35,38,240,1) 12%, rgba(138,32,254,1) 86%);
+    border-image-slice: 1;
+    z-index: 1;
+}
+
+.card-txt-big {
+    font-family: 'Inter', sans-serif !important;
+    width: 30vh;
+    font-weight: 700;
+}
+
+.card-txt-small {
+    font-family: 'Inter', sans-serif !important;
+    width: 31vh;
+    font-weight: 400;
+}
+
+/* 1 попап */
+.button1 {
+    left: 5vh;
+}
+
+.description1 {
+    left: 14.5vh;
+    top: -20vh;
+}
+
+.popup-img-1 {
+    position: absolute;
+    width: 20vw;
+    height: 49vh;
+    left: 33.5vh;
+    top: 2vh;
+}
+
+.texts1 {
+    position: relative;
+    top: 10vh;
+}
+
+/* попап 2 */
+.popup-img-2 {
+    position: absolute;
+    width: 20vw;
+    height: 49vh;
+    left: 33.5vh;
+    top: 2vh;
+}
+
+.description2 {
+    left: -70.5vh;
+    top: -20vh;
+}
+
+/* попап 3 */
+.button3 {
+    left: 5vh;
+    top: 13vh;
+}
+
+.texts3 {
+    position: relative;
+    margin-top: 7vh;
+}
+
+.description3 {
+    left: -85.5vh;
+    top: -20vh;
+    width: 90vh;
+}
+
+.popup-img-3 {
+    position: absolute;
+    width: 27.5vw;
+    height: 49vh;
+    left: 33.5vh;
+    top: 2vh;
+}
+
+
+/* логика ховеров */
+.popup > .description { display:none; }
+
+.popup:hover > .description { display:block; }
+
